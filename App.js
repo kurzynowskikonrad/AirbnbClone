@@ -18,6 +18,8 @@ import {
   View,
 } from 'react-native';
 
+import Entypo from 'react-native-vector-icons/Entypo';
+
 import {
   Colors,
   DebugInstructions,
@@ -73,6 +75,7 @@ const App: () => Node = () => {
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
+            <Entypo name="star" color="#333" size={20}></Entypo>
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
